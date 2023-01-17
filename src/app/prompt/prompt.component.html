@@ -6,7 +6,7 @@
 			</div>
 			<div class="game-header">
 				<h4 style="font-family:monospace">Did I do that?</h4>
-				<span><i>Welcome, {{ name }}</i></span>
+				<span><i>Welcome, {{ name }}!</i></span>
 				<span></span>
 			</div>
 		</div>
@@ -48,13 +48,14 @@
 		<ng-container *ngIf="isGameOver">
 			<div class="row d-flex justify-content-between">
 				<img style="width: 50%; border-radius: 40px;" class="img-fluid col-sm-12 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwI_nUMKlWxNKuNwTyz96_XTMpOwVSJ6soZw&usqp=CAU" alt="Rexi Cat">
-				<div class="result text-center col-md-6 col-sm-12">
+				<div class="result col-md-6 col-sm-12">
 					<h1>You're done!</h1>
 					<h3>Check out your stats:</h3>
-					<p>Out of {{ promptListLength }} prompts,</p>
-					<p>You answered {{ correctAnswer }} correctly!</p>
-					<!-- TODO: ng change if incorrectAnswer = 0 -->
-					<p>But, you also answered {{ incorrectAnswer }} incorrectly. Oof.</p>
+					<p>Out of {{ promptListLength }} prompts...</p>
+					<p *ngIf="correctAnswer">You answered {{ correctAnswer }} correctly!</p>
+					<p *ngIf="!incorrectAnswer">A perfect score, not too shabby! If only there was a way to monetise this victory. Oh well.</p>
+					<p *ngIf="incorrectAnswer && correctAnswer">But, you also answered {{ incorrectAnswer }} incorrectly. Oof. (Don't worry, Rexi Cat's eyes were closed the entire time.)</p>
+					<p *ngIf="!correctAnswer">Oh dear, it looks like you somehow managed to complete this game without scoring a single point. I'm not even mad, that's amazing.</p>
 					<p>Your score: {{ points }}</p>
 				</div>
 			</div>
