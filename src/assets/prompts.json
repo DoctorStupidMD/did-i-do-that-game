@@ -1,0 +1,173 @@
+{
+	"prompts": [{
+					"promptText": "Which country's team won the first World Cup in 1930?",
+					"options": [{
+									"text": "Uruguay",
+									"correct": true
+							},
+							{
+									"text": "France"
+							},
+							{
+									"text": "Brazil"
+							},
+							{
+									"text": "Argentina"
+							}
+					]
+			},
+			{
+					"promptText": "Which of these foods goes by the Japanese name \"ikura\"?",
+					"options": [{
+									"text": "Soba noodles"
+							},
+							{
+									"text": "Spanish mackerel"
+							},
+							{
+									"text": "Bonito flakes"
+							},
+							{
+									"text": "Salmon roe",
+									"correct": true
+							}
+					]
+			},
+			{
+					"promptText": "Who is Kanye West currently married to?",
+					"options": [{
+									"text": "Kylie Jenner"
+							},
+							{
+									"text": "Bianca Censori",
+									"correct": true
+							},
+							{
+									"text": "Kim Kardashian"
+							},
+							{
+									"text": "Emily Ratajkowski"
+							}
+					]
+			},
+			{
+					"promptText": "Which of these components doesn't belong in the popular Italian cocktail Aperol Spritz?",
+					"options": [{
+									"text": "Prosecco"
+							},
+							{
+									"text": "Amaretto",
+									"correct": true
+							},
+							{
+									"text": "Aperol"
+							},
+							{
+									"text": "Soda water"
+							}
+					]
+			},
+			{
+					"promptText": "The Socialist Federal Republic of Yugoslavia was comprised of which republics?",
+					"options": [{
+									"text": "Serbia, Croatia, Hungary, Romania, and Albania"
+							},
+							{
+									"text": "Croatia, Slovenia, Bosnia, Albania, Kosovo, and Bulgaria"
+							},
+							{
+									"text": "Serbia, Croatia, Slovenia, Montenegro, Bosnia, and Herzegovina and Macedonia",
+									"correct": true
+							},
+							{
+									"text": "Croatia, Montenegro, Herzegovina and Macedonia, Romania, Bosnia, and Kosovo"
+							}
+					]
+			},
+			{
+					"promptText": "Which musician or music group has never won a Grammy?",
+					"options": [{
+									"text": "Quincy Jones"
+							},
+							{
+									"text": "Bruce Springsteen"
+							},
+							{
+									"text": "Stevie Wonder"
+							},
+							{
+									"text": "Queen",
+									"correct": true
+							}
+					]
+			},
+			{
+					"promptText": "Which of the following languages is not represented in an inscription on the Rosetta Stone?",
+					"options": [{
+									"text": "Egyptian Demotic script"
+							},
+							{
+									"text": "Cyrillic Latin",
+									"correct": true
+							},
+							{
+									"text": "Egyptian hieroglyphs"
+							},
+							{
+									"text": "Greek"
+							}
+					]
+			},
+			{
+					"promptText": "What best describes a Zither?",
+					"options": [{
+									"text": "A cornett-like bass instrument invented in the late 16th century"
+							},
+							{
+									"text": "An Irish frame drum ranging from 25-65 cm in diameter"
+							},
+							{
+									"text": "A metallic-stringed instrument stretched across a thin, flat body",
+									"correct": true
+							},
+							{
+									"text": "An electronic instrument controlled without physical contact"
+							}
+					]
+			},
+			{
+					"promptText": "Which of these is not a lobe of the human brain?",
+					"options": [{
+									"text": "Cerebellum",
+									"correct": true
+							},
+							{
+									"text": "Broca area"
+							},
+							{
+									"text": "Sensory strip"
+							},
+							{
+									"text": "Wernickle area"
+							}
+					]
+			},
+			{
+				"promptText": "What is the name of Lulu and Ari's cat?",
+				"options": [{
+								"text": "Thomas O'Malley"
+						},
+						{
+								"text": "Chipa"
+						},
+						{
+								"text": "Cannoli",
+								"correct": true
+						},
+						{
+								"text": "Mordecai"
+						}
+				]
+		}
+	]
+}

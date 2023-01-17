@@ -1,0 +1,24 @@
+<div class="container bg-light py-5">
+	<h1 class="display-4 fw-bold mb-4 text-center text-uppercase">Did I do that!?</h1>
+	<p class="col-md-12 mb-5 pt-6 text-center">Did <i>you</i> do the <i>thing?</i> Say <b>whatever</b> it takes to prove your innocence... even if you're not so innocent.</p>
+	<div class="float-left">
+		<h4>How to play:</h4>
+		<div class="d-flex justify-content-center w-90 p-2">
+			<ol>
+				<li>Before the game starts, all players have provided three weird or quirky facts about themselves.</li>
+				<li>Your goal is to select the connect the correct player to each "Did I do that?" prompt. Ask questions, accuse each other, throw someone under the bus.</li>
+				<li>If the prompt belongs to you, fiercely defend and deny it - even if it's your own prompt! Throw them off your trail!</li>
+				<li>Everyone will have 60 seconds per prompt to accuse, oppose, challenge, defend, rebuke, and just flat-out argue their guesses before locking in their selection.</li>
+				<li>The player(s) who has matched the most prompts wins!</li>
+			</ol>
+		</div>
+	</div>
+	<h2 class="display-10" style="font-family:monospace;text-align:center">And remember, everyone is an enemy. Good luck and let's play!</h2>
+	<div class="d-flex align-items-center justify-content-center">
+		<div class="name col-md-4 my-3">
+			<label for="">Enter your name:</label>
+			<input #name autofocus type="text" id="nameInput" class="form-control" (keydown.enter)="startGame()" [(ngModel)]="myText" (ngModelChange)="onTextChange($event)" placeholder="Janthony">
+			<button class="btn btn-primary btn-lg" (click)="startGame()" [disabled]="!hasText">Start the game</button>
+		</div>
+	</div>
+</div>
